@@ -1,0 +1,73 @@
+
+================================================================================
+INTERNAL MEMORANDUM
+TO:     Chief Investment Officer & Head of Nigeria Operations
+FROM:   Analytics Team
+DATE:   Q4 2023
+RE:     Nigeria Macroeconomic Intelligence — Investment Risk & Opportunity Brief
+================================================================================
+
+SITUATION SUMMARY
+
+As of end-2023, Nigeria's economy presents a bifurcated picture: real GDP growth
+held at 3.5% in Q4 2023, sustained by a resilient non-oil private sector — yet
+headline inflation breached 28.9%, driven by the June 2023 petrol subsidy removal
+and naira float that depreciated the exchange rate from NGN 467 to over NGN 907
+per USD within six months. This combination of moderate growth and accelerating
+inflation represents the single most critical risk to local-currency-denominated
+portfolio returns in the near term.
+
+PRIORITY RECOMMENDATIONS
+
+1. HEDGE NAIRA EXPOSURE ON ALL LOCAL-CURRENCY POSITIONS [HIGH PRIORITY]
+   Exchange rate is the statistically dominant driver of headline inflation
+   (OLS coefficient: 0.026 per NGN/USD, p<0.001, Adj R²=0.63). Prophet model
+   12-month forecast projects continued inflationary pressure at 29–34% through
+   mid-2024, contingent on further FX depreciation. Recommendation: restructure
+   at least 60% of NGN-denominated instruments into USD-linked or indexed
+   instruments within 90 days. Estimated impact: preserves ~15–20pp of real
+   return versus unhedged exposure.
+
+2. OVERWEIGHT NON-OIL SECTORS — TELECOM, FINTECH, AGRIBUSINESS [HIGH PRIORITY]
+   Non-oil GDP growth (mean: 1.83% quarterly) consistently outpaces oil-sector
+   growth (mean: −0.59%) across 2015–2023, with post-COVID recovery averaging
+   3.14% quarterly (vs 1.29% pre-COVID, paired t-test p=0.005, Cohen's d=1.04).
+   SHAP analysis of state-level economic predictors confirms that urban
+   connectivity (internet penetration, urban population share) are the strongest
+   positive structural drivers. Recommendation: allocate new capital into
+   fintech infrastructure, digital agriculture, and logistics sectors where
+   non-oil growth fundamentals are strongest. Target implementation: 6-month
+   deployment window, Q1–Q2 2024.
+
+3. PRIORITISE SOUTHERN STATES FOR DEPLOYMENT — AVOID NORTH-EAST, NORTH-WEST
+   WITHOUT RISK PREMIUM [MEDIUM PRIORITY]
+   One-way ANOVA confirms statistically significant unemployment inequality
+   across geopolitical zones (F=10.65, p<0.001, η²=0.63 large effect).
+   North-West (avg: 41.7%) and North-East (avg: 41.0%) unemployment rates are
+   18pp higher than South-West (avg: 23.3%) and South-South (avg: 23.6%).
+   Additionally, 100% of Northern zone-quarters classify as 'high informal'
+   (>90% informal employment, χ²=48.0, p<0.001, Cramér's V=1.0), indicating
+   weaker formal market infrastructure for investment deployment. Recommendation:
+   weight new project financing toward Lagos, Rivers, and South-West states;
+   apply a 300–400bp risk premium for Northern-state exposures.
+
+INFLATION OUTLOOK
+
+The Prophet model's 12-month forecast (MAPE=12.2%) projects inflation remaining
+above 25% through H1 2024 before moderating toward 22–24% by Q4 2024, assuming
+no further CBN rate adjustments or additional naira depreciation. For local-
+currency investment returns, a 25%+ inflation environment implies a real return
+hurdle rate of at least 30% NGN-denominated yield to generate positive USD-
+equivalent returns — a threshold currently met by select FGN Eurobonds and
+high-yield infrastructure notes, but not by traditional equity or real estate.
+
+Baseline GDP forecast for 2024–2025 is 4.0% annual growth; downside scenario
+(oil at $55/barrel, naira −20%) implies ~1.8% growth — a $16.0B USD GDP
+differential between scenarios that directly informs infrastructure pipeline
+sizing and disbursement timing decisions.
+
+All figures: NBS, World Bank, CBN 2015–2023. Model outputs generated using
+ARIMA(1,1,1), SARIMAX, Meta Prophet, and XGBoost — full model cards attached
+in the Analytical Report appendix.
+
+================================================================================
